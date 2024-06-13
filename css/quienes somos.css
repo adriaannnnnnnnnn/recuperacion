@@ -1,0 +1,134 @@
+/*Cuerpo*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: auto;
+}
+/*Cuerpo*/
+
+
+/*Cabecera*/
+ul {
+    list-style: none;
+}
+
+header {
+    margin: auto;
+    background: whitesmoke;}
+
+
+#menu-h {
+   list-style: none;
+    margin: auto;
+   text-align: right;
+   margin-left: 50px; 
+}
+    
+    #menu-h ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end; 
+    }
+
+#menu-h a {
+    color: rgb(0, 17, 168);
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#menu-h a:hover {
+    background: #727272;
+}
+
+#menu-h ul ul {
+    display: none;
+    position: absolute;
+}
+/*Cabecere*/
+
+/*Quienes somos*/
+
+.quienes{
+    float: left;
+    padding: 4%;
+}
+
+.yutu{
+    border: 1px solid gray;
+    display: flex;
+    margin: 5px;
+    font-size: 20px;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.texto{
+    margin-left: 5px;
+}
+
+.p1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.p2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+
+.texto2{
+    margin-left: 5px;
+}
+
+.valores{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ul{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+/*Pie de pagina*/
+
+.footer{
+    background: rgb(54, 54, 54);
+    color: white;
+    height: 80px;
+    position: absolute;
+    bottom: 9;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.pf{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Pie de pagina*/

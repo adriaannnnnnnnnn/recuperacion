@@ -1,0 +1,137 @@
+/*Cuerpo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: auto;
+}
+/*Cuerpo*/
+
+
+/*Cabecera*/
+ul {
+    list-style: none;
+}
+
+header {
+    margin: auto;
+    background: whitesmoke;}
+
+
+#menu-h {
+   list-style: none;
+    margin: auto;
+   text-align: right;
+   margin-left: 50px; 
+}
+    
+    #menu-h ul {
+        list-style: none;
+        display: flex;
+        
+    }
+
+#menu-h a {
+    color: rgb(0, 17, 168);
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#menu-h a:hover {
+    background: #727272;
+}
+
+#menu-h ul ul {
+    display: none;
+    position: absolute;
+}
+/*Cabecere*/
+
+/*Contenido del formulario*/
+
+.form-register{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: whitesmoke;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(0, 17, 168);
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.form-register .botons{
+    width: 100%;
+    background: rgb(0, 17, 168);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+/*Contenido del formulario*/
+
+/*Pie de pagina*/
+
+.footer{
+    background: rgb(54, 54, 54);
+    color: white;
+    height: 80px;
+    position: absolute;
+    bottom: 9;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.pf{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Pie de pagina*/
